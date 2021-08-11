@@ -32,8 +32,8 @@ public class SetMatrixZeroes {
       }
     }
 
-    for (int i = rows; i > 0; i--) {
-      for (int j = cols; j > 0; j--) {
+    for (int i = rows - 1; i > 0; i--) {
+      for (int j = cols - 1; j > 0; j--) {
         if (matrix[i][0] == 0 || matrix[0][j] == 0) {
           matrix[i][j] = 0;
         }
