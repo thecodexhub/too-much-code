@@ -48,12 +48,14 @@ public class CountInversions {
 
   public int _mergeSort(int[] arr, int[] temp, int left, int right) {
     int mid, inv_count = 0;
-    mid = (left + right) / 2;
+    if (right > left) {
+      mid = (left + right) / 2;
 
-    inv_count += _mergeSort(arr, temp, left, mid);
-    inv_count += _mergeSort(arr, temp, mid + 1, right);
+      inv_count += _mergeSort(arr, temp, left, mid);
+      inv_count += _mergeSort(arr, temp, mid + 1, right);
 
-    inv_count += merge(arr, temp, left, mid + 1, right);
+      inv_count += merge(arr, temp, left, mid + 1, right);
+    }
 
     return inv_count;
   }
