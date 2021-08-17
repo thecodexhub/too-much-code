@@ -5,9 +5,10 @@
         "Day 3 - Arrays",
         "Day 4 - Hashing",
         "Day 5 - LinkedList",
+        "Day 6 - LinkedList",
     ],
     "files.associations": {
         "vector": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
     }
 }
