@@ -6,6 +6,7 @@
         "Day 4 - Hashing",
         "Day 5 - LinkedList",
         "Day 6 - LinkedList",
+        "Day 7 - 2 Pointer",
     ],
     "files.associations": {
         "vector": "cpp",
