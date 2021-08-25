@@ -7,6 +7,7 @@
         "Day 5 - LinkedList",
         "Day 6 - LinkedList",
         "Day 7 - 2 Pointer",
+        "Day 8 - Greedy",
     ],
     "files.associations": {
         "vector": "cpp",
